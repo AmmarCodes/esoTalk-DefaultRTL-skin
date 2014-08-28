@@ -9,7 +9,7 @@ if (!defined("IN_ESOTALK")) exit;
 ET::$skinInfo["DefaultRTL"] = array(
 	"name" => "DefaultRTL",
 	"description" => "RTL skin.",
-	"version" => "0.1.0",
+	"version" => "1.0.0",
 	"author" => "Ammar Alakkad",
 	"authorEmail" => "am.alakkad@gmail.com",
 	"authorURL" => "https://aalakkad.github.io",
