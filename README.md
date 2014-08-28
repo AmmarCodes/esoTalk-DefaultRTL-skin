@@ -2,11 +2,21 @@
 
 ![Front-end screenshot](screenshots/1.png)
 
+Default RTL Skin for [esoTalk](http://esotalk.org) forum engine.
+
 ## Introduction
+Default esoTalk skin is very nice and clean, sadly it doesn't support RTL layouts!
 
-## Configuration
+This is the same skin as the Default one, but with RTL css file appended to the style and **Droid Arabic Kufi** Web font added to the master instead of **Open Sans**.
 
-The skin by default would be used for front-end only, you can use this skin for back-end by adding this line to your `config/config.php` file:
+## Installation
+
+- Download the [zip file](archive/master.zip) and extract its content in `addons/skins`.
+- Then go to `Appearance` in administration panel and activate the skin.
+
+## Admin Skin
+
+The skin by default will be used for front-end only, you can use this skin for admin panel by adding this line to your `config/config.php` file:
 
 ```php
 $config["esoTalk.adminSkin"] = 'DefaultRTL';
@@ -14,4 +24,6 @@ $config["esoTalk.adminSkin"] = 'DefaultRTL';
 
 ![Back-end screenshot](screenshots/2.png)
 
-## Deploy
+## Contribution
+
+You're welcome to [report bug](issues) or create a [pull request](pulls).
