@@ -394,3 +394,7 @@ right: -16px;
 #skinList > li .skinControls {
     float: left !important;
 }
+
+#languageList > li .popupWrapper {
+    float: left !important;
+}
