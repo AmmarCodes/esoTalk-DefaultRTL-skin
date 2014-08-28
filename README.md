@@ -1,6 +1,6 @@
 # esoTalk RTL Default Skin
 
-![Front-end screenshot](https//raw.github.com/AAlakkad/esoTalk-DefaultRTL-skin/screenshots/1.png)
+![Front-end screenshot](screenshots/1.png)
 
 ## Introduction
 
@@ -12,6 +12,6 @@ The skin by default would be used for front-end only, you can use this skin for 
 $config["esoTalk.adminSkin"] = 'DefaultRTL';
 ```
 
-![Back-end screenshot](https//raw.github.com/AAlakkad/esoTalk-DefaultRTL-skin/screenshots/2.png)
+![Back-end screenshot](screenshots/2.png)
 
 ## Deploy
