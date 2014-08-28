@@ -11,7 +11,7 @@ This is the same skin as the Default one, but with RTL css file appended to the 
 
 ## Installation
 
-- Download the [zip file](archive/master.zip) and extract its content in `addons/skins`.
+- Download the [zip file](https://github.com/AAlakkad/esoTalk-DefaultRTL-skin/archive/master.zip) and extract its content in `addons/skins`.
 - Then go to `Appearance` in administration panel and activate the skin.
 
 ## Admin Skin
@@ -26,4 +26,4 @@ $config["esoTalk.adminSkin"] = 'DefaultRTL';
 
 ## Contribution
 
-You're welcome to [report bug](issues) or create a [pull request](pulls).
+You're welcome to [report bug](https://github.com/AAlakkad/esoTalk-DefaultRTL-skin/issues) or create a [pull request](https://github.com/AAlakkad/esoTalk-DefaultRTL-skin/pulls).
