@@ -7,7 +7,7 @@
     <?php endforeach; ?>
 </div>
 
-<div id="remember-container">
+<div id="remember-container" class="buttons">
     <a href="#" class="button toggle <?php if($data["remember"]): ?>button-pressed<?php endif; ?>">
         <i class="icon-check<?php if(!$data["remember"]): ?>-empty<?php endif; ?>"></i> <?php print T('Keep me logged in'); ?>
     </a>
