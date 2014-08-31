@@ -121,3 +121,39 @@ a.button.big {padding:10px; height:auto; line-height:1em}
 .button.submit:hover {border-color:#000; color:#fff}
 
 .buttonGroup .button {margin-right:-3px}
+
+
+
+#social-container a {
+    display: inline-block !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    padding: 4px 2px !important;
+    width: 150px !important;
+    text-align: center !important;
+    background-image: -webkit-linear-gradient(top, #FFF, #F5F5F5);
+    background-image: -moz-linear-gradient(top, #fff, #f5f5f5);
+    background-image: -o-linear-gradient(top, #fff, #f5f5f5);
+    background-image: -ms-linear-gradient(top, #fff, #f5f5f5);
+    background-image: linear-gradient(to bottom, #FFF, #F5F5F5);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06),inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06),inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+#social-container i {
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+
+#social-container i.facebook {
+    background: url('./images/facebook.png') top left no-repeat;
+}
+#social-container i.google {
+    background: url('./images/google.png') top left no-repeat;
+}
+#social-container i.twitter {
+    background: url('./images/twitter.png') top left no-repeat;
+}
